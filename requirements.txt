@@ -1,0 +1,1 @@
+metaappscriptsdk==0.5.35

@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    image: apisgarpun/simple-app-script-python:latest
+    environment:
+      - DEBUG=true
+      - SERVICE_ID=myservice
+    volumes:
+      - ~/.rwmeta/developer_settings.json:/root/.rwmeta/developer_settings.json
